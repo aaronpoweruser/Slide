@@ -5,21 +5,9 @@
 
     android:layout_height="wrap_content"
     android:gravity="center"
-
+    android:layout_marginBottom="4dp"
+    android:background="?attr/card_background"
     android:orientation="vertical">
-
-    <LinearLayout
-        android:id="@+id/card"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_marginBottom="4dp"
-        android:background="?attr/card_background"
-        android:gravity="center"
-        android:orientation="vertical"
-
-        >
-
 
         <RelativeLayout
             android:id="@+id/imagearea"
@@ -585,5 +573,4 @@
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 </LinearLayout>

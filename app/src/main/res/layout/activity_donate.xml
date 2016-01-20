@@ -5,7 +5,6 @@
     android:layout_height="fill_parent"
     android:layout_gravity="center"
 
-    android:background="?attr/activity_background"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar

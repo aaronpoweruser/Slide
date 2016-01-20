@@ -51,17 +51,6 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <LinearLayout
-                android:id="@+id/padd"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-
-                android:orientation="horizontal"
-                android:paddingBottom="0dp"
-                android:scrollbars="none">
-
 
                 <LinearLayout
                     android:id="@+id/background"
@@ -120,12 +109,7 @@
 
                         android:textSize="?attr/font_commentbody" />
 
-
                 </LinearLayout>
-
-
-            </LinearLayout>
-
 
         </LinearLayout>
 

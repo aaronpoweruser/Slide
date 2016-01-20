@@ -18,16 +18,10 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-
-
         android:background="#424242"
-
         android:clipChildren="false"
         android:orientation="vertical"
-
-
         android:scrollbars="none"
-
         app:cardBackgroundColor="?attr/card_background">
 
         <LinearLayout
@@ -35,8 +29,6 @@
             android:layout_height="wrap_content"
             android:background="?android:selectableItemBackground"
             android:orientation="vertical"
-
-
             android:padding="16dp">
 
             <TextView
@@ -51,34 +43,14 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <LinearLayout
-                android:id="@+id/padd"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-
-                android:orientation="horizontal"
-                android:paddingBottom="0dp"
-                android:scrollbars="none">
-
 
                 <LinearLayout
                     android:id="@+id/background"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-
-
-                    >
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
 
 
                         <TextView
@@ -87,7 +59,6 @@
                             android:layout_height="wrap_content"
                             android:text="+49"
                             android:textColor="?attr/font"
-
                             android:textSize="?attr/font_commentinfo" />
 
                         <TextView
@@ -96,9 +67,7 @@
                             android:layout_height="wrap_content"
                             android:padding="5dp"
                             android:text="4 hours ago"
-
                             android:textColor="?attr/font"
-
                             android:textSize="?attr/font_commentinfo" />
 
                         <include
@@ -113,22 +82,14 @@
                     </LinearLayout>
 
 
-                                    <me.ccrama.redditslide.SpoilerRobotoTextView
+                    <me.ccrama.redditslide.SpoilerRobotoTextView
                         android:id="@+id/content"
                         android:layout_width="match_parent"
 
                         android:layout_height="wrap_content"
                         android:text="Alright, fair enough, I see your point. The reason I was open sourcing it was to help other people developing apps with theirs, along with showing demonstrations of libraries I used throughout the project for people wondering about them. I wasn't really going for the whole issue finder aspect of being open sourced, which is why I would wait till the next beta release to do so and allow people to look in and give me feedback before the full release. I'll definitively consider releasing it earlier now, though. Thank you for the response!"
                         android:textColor="?attr/font"
-
                         android:textSize="?attr/font_commentbody" />
-
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
 
         </LinearLayout>
 
