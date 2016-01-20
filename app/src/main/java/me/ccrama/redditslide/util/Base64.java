@@ -31,6 +31,8 @@ package me.ccrama.redditslide.util;
  * @version 1.3
  */
 
+import android.annotation.SuppressLint;
+
 /**
  * Base64 converter class. This code is not a complete MIME encoder;
  * it simply converts binary data to base64 data and back.
@@ -307,6 +309,7 @@ class Base64 {
      * @param alphabet is the encoding alphabet
      * @return the BASE64-encoded byte array
      */
+    @SuppressLint("Assert")
     private static byte[] encode(byte[] source, int off, int len, byte[] alphabet) {
         int lenDiv3 = (len + 2) / 3; // ceil(len / 3)
         int len43 = lenDiv3 * 4;

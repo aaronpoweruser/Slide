@@ -14,11 +14,11 @@
         app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/chrome"
-        android:title="Open in External Browser"
+        android:title="@string/menu_open_external_browser"
         app:showAsAction="never"/>
 
     <item android:id="@+id/share"
-        android:title="Share"
+        android:title="@string/menu_share"
         app:showAsAction="never"/>
 
 

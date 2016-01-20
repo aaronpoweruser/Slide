@@ -118,7 +118,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="IMAGES"
+                    android:text="@string/settings_theme_images_title"
                     android:textStyle="bold"
                     android:textSize="14sp"
                     android:textAllCaps="true"
@@ -193,7 +193,7 @@
                         android:button="@null"
                         android:buttonTint="?attr/tint"
                         android:hapticFeedbackEnabled="true"
-                        android:text="Crop big picture"
+                        android:text="@string/settings_theme_crop_image"
                         android:textColor="?attr/font"
                         android:textColorHint="?attr/font" />
                 </LinearLayout>
@@ -243,7 +243,7 @@
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="Actionbar"
+                    android:text="@string/settings_theme_actionbar_title"
                     android:textStyle="bold"
                     android:textSize="14sp"
                     android:textAllCaps="true"
@@ -352,7 +352,7 @@
                         android:button="@null"
                         android:buttonTint="?attr/tint"
                         android:hapticFeedbackEnabled="true"
-                        android:text="''Save post'' button in actionbar"
+                        android:text="@string/settings_theme_save_post"
                         android:textColor="?attr/font"
                         android:textColorHint="?attr/font" />
                 </LinearLayout>

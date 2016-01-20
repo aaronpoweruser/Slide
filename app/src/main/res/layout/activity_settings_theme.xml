@@ -169,7 +169,7 @@
                     android:button="@null"
                     android:buttonTint="?attr/tint"
                     android:hapticFeedbackEnabled="true"
-                    android:text="Tint card background to subreddit color"
+                    android:text="@string/settings_theme_tint_card_background"
                     android:textColor="?attr/font"
                     android:textColorHint="?attr/font" />
             </LinearLayout>
@@ -204,7 +204,7 @@
                     android:button="@null"
                     android:buttonTint="?attr/tint"
                     android:hapticFeedbackEnabled="true"
-                    android:text="Only tint outside the subreddit"
+                    android:text="@string/settings_theme_tint_outside_subreddit"
                     android:textColor="?attr/font"
                     android:textColorHint="?attr/font" />
             </LinearLayout>

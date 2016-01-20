@@ -9,7 +9,7 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:app="http://schemas.android.com/apk/res-auto"
                   android:layout_width="match_parent"
-                  android:layout_height="match_parent"
+                  android:layout_height="wrap_content"
                   android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
@@ -134,7 +134,7 @@
                     android:button="@null"
                     android:buttonTint="?attr/tint"
                     android:hapticFeedbackEnabled="true"
-                    android:text="Alphabetical sidebar"
+                    android:text="@string/settings_general_alphabetical_sidebar"
                     android:textColor="?attr/font"
                     android:textColorHint="?attr/font"/>
             </LinearLayout>
@@ -170,7 +170,7 @@
                     android:button="@null"
                     android:buttonTint="?attr/tint"
                     android:hapticFeedbackEnabled="true"
-                    android:text="Hide low quality image previews"
+                    android:text="@string/settings_general_hide_low_quality_image_previews"
                     android:textColor="?attr/font"
                     android:textColorHint="?attr/font"/>
             </LinearLayout>
@@ -216,7 +216,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:text="Check every 15 minutes"
+                        android:text="@string/settings_general_notification_check_frequency"
                         android:textColor="?attr/font"
                         android:textSize="12sp"/>
                 </LinearLayout>
@@ -251,7 +251,7 @@
                     android:button="@null"
                     android:buttonTint="?attr/tint"
                     android:hapticFeedbackEnabled="true"
-                    android:text="Mark posts as seen when scrolled past"
+                    android:text="@string/settings_general_mark_as_seen"
                     android:textColor="?attr/font"
                     android:textColorHint="?attr/font"/>
             </LinearLayout>
@@ -358,7 +358,7 @@
                     android:button="@null"
                     android:buttonTint="?attr/tint"
                     android:hapticFeedbackEnabled="true"
-                    android:text="Hide header on drawer"
+                    android:text="@string/settings_general_hide_header_on_drawer"
                     android:textColor="?attr/font"
                     android:textColorHint="?attr/font"/>
             </LinearLayout>
@@ -403,7 +403,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:text="Hot"
+                        android:text="@string/settings_general_hot"
                         android:textColor="?attr/font"
                         android:textSize="12sp"/>
                 </LinearLayout>
